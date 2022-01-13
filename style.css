@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear{clear: both;}
+.w50{
+    float: left; 
+    width: 40%;
+    padding: 0 15px;
+}
+.menu-mobile{display: none;}
+.menu-mobile{
+    float: right;
+}
+section.topo{
+    background-image: linear-gradient(114deg, #230bf5, #00f9f7);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.logo{
+    float: left;
+    opacity: 1;
+}
+.menu-desktop{
+    float: right;
+}
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px; 
+}
+.menu-desktop a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+.menu-desktop a:hover{
+    opacity: 1;
+}
+.time-descricao{
+    margin-top: 50px;
+    color: white;
+}
+.time-descricao h2{
+    font-size: 30px;
+}
+.time-descricao p{
+    font-size: 14px;
+    margin-top: 10px;
+    max-width: 240;
+}
+.time-descricao a{
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1b49a5;
+    border-radius: 10px;
+    background: #ffca00;
+    box-shadow: 0 20px 30px 0 rgba((37, 15, 138, 0.2));
+}
+.circle{
+    position: absolute;
+    left: 50%;
+    width: 70px;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #ffffff ;
+    box-shadow: 0 10px 25px 0 rgba(37, 15, 139, 0.1);
+}
+.circle i{
+    font-size: 30px;
+    color: #1c4aa6;
+}
+section.clientes-slider{
+    padding: 1px 0;
+}
+section.clientes-slider img{
+    width: 650px;
+    position: center;
+}
+/*Slick alider - - faz movimento no formato de slide */
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+.slick-dotted button: :focus{
+    out line: 0;
+}
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+li.slick-active button{
+    background: #0c3f8a;
+    color: #0c3f8a;
+}
+/*alinhar ao centro */
+section.diferenciais{
+    padding: 30px;
+}
+section.diferenciais h2{
+    color: #202020;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.icons-diferenciais{
+    display: flex;
+    margin-top: 80px;
+}
+.box-single-diferenciais{
+    text-align: center;
+    width: 30.3%;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+.box-single-diferenciais img{
+    max-width: 100%;
+}
+.box-single-diferenciais h3{
+    font-size: 17px;
+    margin: 10px 0;
+    color: #202020;
+}
+.box-single-diferenciais p{
+    font-size: 14px;
+    color: #202020;
+}
+/* Formatação da pagina login*/
+button, input {
+    font-family: Oswald; 
+   }
+   
+   /*h1 {
+    text-align: center;
+    border: 1px solid #000;
+    background-color: rgba(148, 197, 110, 0.5); /*cor base: #477C1E*/
+    /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 0;
+   }*/
+   
+   fieldset {
+    width: 50%;
+    background-color: #ececec;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: auto;
+    margin-top: 20px; 
+   }
+   
+   input.tamanho-maior {
+    width: 250px;
+   }
+   
+   label.alinha {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: right;
+   }
+   
+   button {
+    margin: 20px auto;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+   }
+   
+   p {
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(148, 197, 110, 0.3);
+    text-align: center;
+   }
+   .cadastro-p{
+        text-align: left;
+   }
+   
+   span {
+    font-weight: bold;
+    font-style: italic;
+    color: #173600;
+   }
+   
+   /*CSS avançado - uso de seletores de atributos*/
+   input[name^="aluno"] {
+    width: 280px;
+   }
+   
+   /*formatação da tabela gerada dinamicamente pelo nosso código em PHP*/
+   table {
+    width: 30%;
+    border: 1px solid #777777;
+    margin: 20px auto;
+    box-shadow: 0 0 5px 5px rgba(200, 200, 200, 0.7);
+   
+   }
+   
+   td, th {
+    border: 1px solid #777777;
+   }
+   
+   th {
+    background-color: rgba(148, 197, 110, 0.5);
+   }
+   
+   td {
+    text-align: center;
+   }
+/*Fim da formatação da pagina login */
+
+.time-imagem img{max-width: 100%;}
+@media screen and (max-wdth: 768px){
+    .box-single-diferenciais{width: 100%;}
+    .w50{width: 100%;}
+
+    .menu-desktop{display: none;}
+    .menu-mobile{display: block;}
+}
